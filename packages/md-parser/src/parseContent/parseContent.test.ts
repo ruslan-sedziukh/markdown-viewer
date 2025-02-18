@@ -1,4 +1,4 @@
-import { InlineType } from 'md-types'
+import { InlineType } from '@ruslan-sedziukh/md-types'
 import { parseContent } from '.'
 
 describe('parseContent', () => {

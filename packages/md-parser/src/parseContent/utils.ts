@@ -3,7 +3,7 @@ import {
   InlineElement,
   InlineType,
   isInlineContent,
-} from 'md-types'
+} from '@ruslan-sedziukh/md-types'
 
 type TempLink = {
   temp: true
@@ -101,7 +101,7 @@ export const getTempElData = ({
       elType: null
       elSymbols: null
       tempElI: number
-      reparseElType?
+      reparseElType?: null
     } => {
   if (parseImage) {
     return getImageTempElData({ content, i, temp })

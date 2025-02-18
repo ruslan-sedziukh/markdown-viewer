@@ -1,4 +1,4 @@
-import { Heading } from 'md-types'
+import { Heading } from '@ruslan-sedziukh/md-types'
 
 // returns type of heading and index of content
 export const getHeadingType = (heading: string): [Heading, number] => {

@@ -1,4 +1,8 @@
-import { InlineContent, InlineElement, InlineType } from 'md-types'
+import {
+  InlineContent,
+  InlineElement,
+  InlineType,
+} from '@ruslan-sedziukh/md-types'
 import {
   getTempElData,
   getElementsWithNoTemp,

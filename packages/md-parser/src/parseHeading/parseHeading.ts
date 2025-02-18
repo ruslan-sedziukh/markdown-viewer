@@ -1,4 +1,4 @@
-import { HeadingElement } from 'md-types'
+import { HeadingElement } from '@ruslan-sedziukh/md-types'
 import { parseContent } from '../parseContent'
 import { getHeadingType } from './utils'
 

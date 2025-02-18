@@ -1,7 +1,15 @@
 {
-  "name": "md-types",
-  "version": "0.0.1",
+  "name": "@ruslan-sedziukh/md-types",
+  "version": "0.0.2",
   "license": "MIT",
-  "main": "index.js",
-  "private": false
+  "private": false,
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "npx tsc"
+  }
 }

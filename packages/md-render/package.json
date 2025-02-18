@@ -1,11 +1,11 @@
 {
-  "name": "md-render",
+  "name": "@ruslan-sedziukh/md-render",
   "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
   "private": false,
   "dependencies": {
-    "md-types": "^0.0.1"
+    "@ruslan-sedziukh/md-types": "^0.0.1"
   },
   "peerDependencies": {
     "react": "^18.3.1"

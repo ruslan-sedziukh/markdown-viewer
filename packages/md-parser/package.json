@@ -1,10 +1,31 @@
 {
-  "name": "md-parser",
-  "version": "0.0.1",
+  "name": "@ruslan-sedziukh/md-parser",
+  "version": "0.0.5",
   "license": "MIT",
-  "main": "index.js",
   "private": false,
+  "type": "module",
+  "main": "./dist/md-parser.js",
+  "exports": {
+    ".": "./dist/md-parser.js"
+  },
+  "files": [
+    "dist/md-parser.js",
+    "dist/md-parser.d.ts",
+    "dist/md-parser.js.map",
+    "README.md"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist/* && tsc && rollup --config"
+  },
   "dependencies": {
-    "md-types": "^0.0.1"
+    "@ruslan-sedziukh/md-types": "^0.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.34.8",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-local-resolve": "^1.0.7",
+    "typescript": "^5.7.3"
   }
 }
